@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  /* background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  ); */
+  background-image: url(/img/journey-1130732_1920.jpg);
+  background-size: cover;
+}
+h1,
+p,
+li {
+  color: wheat;
+}
+button {
+  border-radius: 10px;
+  background-color: #a6764f;
+  padding: 5px 5px 5px 5px;
+}
+.box {
+  margin: 120px auto;
+  max-width: 800px;
+  width: 100%;
+  border-radius: 10px;
+  padding: 25px;
+  background-color: #a6764f;
+  opacity: 0.5;
+}
+
+.box:hover {
+  opacity: 1;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.users {
+  padding-right: 40px;
+}
+
+.priority {
+  padding-right: 40px;
+}
+
+.taskList {
+  margin-top: 50px;
+  margin-left: 20px;
+}
