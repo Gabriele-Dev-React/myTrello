@@ -11,7 +11,7 @@
   <body>
     <!--  -->
     <div class="box">
-      <h1 class="title">My Trello</h1>
+      <h1 class="title">To do List</h1>
       <div class="navbar">
         <div class="textBox">
           <p>Task:</p>
@@ -37,8 +37,8 @@
             <option value="">High</option>
           </select>
 
-          <button onclick="newElement()" class="button add">Add</button>
-          <button onclick="newElement()" class="button show/hide">
+          <button onclick="newElement()" class="button-add">Add</button>
+          <button onclick="newElement()" class="button-show-hide">
             Show/Hide
           </button>
         </div>
@@ -46,7 +46,11 @@
 
       <!-- LISTA TASK -->
       <ul class="taskList">
-        <li>
+        <li class="list">
+          <input type="checkbox" class="checkTask" />
+          <button class="button-high">High</button>
+          <button class="button-med">Medium</button>
+          <button class="button-low">Low</button>
           Hit the gym
           <button class="delete">Delete</button>
           <button class="edit">Edit</button>
