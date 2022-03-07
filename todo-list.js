@@ -29,3 +29,17 @@ const priorityID = [
   { id: 2, desc: "medium" },
   { id: 3, desc: "high" },
 ];
+
+// ACTION ADD
+const add = (task, assignTo, priorityID) => {
+  const obj = {
+    id: IdCreator,
+    task: task,
+    assign: assignTo,
+    priority: priorityID,
+    completed: false,
+  };
+  return [...tasklist, obj];
+};
+
+console.log(add(task.description, assignTo[1].nome, priorityID[1].desc));
