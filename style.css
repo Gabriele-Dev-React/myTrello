@@ -23,10 +23,14 @@ p,
 li {
   color: wheat;
 }
-button {
+.delete,
+.edit,
+.button-add,
+.button-show-hide {
   border-radius: 10px;
   background-color: #a6764f;
   padding: 5px 5px 5px 5px;
+  cursor: pointer;
 }
 .box {
   margin: 120px auto;
@@ -65,4 +69,21 @@ button {
 .taskList {
   margin-top: 50px;
   margin-left: 20px;
+}
+
+.button-high {
+  background-color: red;
+  border-radius: 10px;
+  padding: 5px 5px 5px 5px;
+}
+.button-med {
+  background-color: orange;
+  border-radius: 10px;
+  padding: 5px 5px 5px 5px;
+}
+
+.button-low {
+  background-color: green;
+  border-radius: 10px;
+  padding: 5px 5px 5px 5px;
 }
