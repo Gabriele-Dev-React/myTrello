@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="todo-list.js"></script>
+    <title>My-trello</title>
+  </head>
+  <body>
+    <!--  -->
+    <div class="box">
+      <h1 class="title">My Trello</h1>
+      <div class="navbar">
+        <div class="textBox">
+          <p>Task:</p>
+          <input
+            type="text"
+            class="taskInput"
+            placeholder="Example:Go to the gym"
+          />
+        </div>
+        <div class="textUsers">
+          <p>AssignTo:</p>
+          <select class="users">
+            <option value="">Aldo</option>
+            <option value="">Giacomo</option>
+            <option value="">Giovanni</option>
+          </select>
+        </div>
+        <div class="textPrio">
+          <p>Priority:</p>
+          <select class="priority">
+            <option value="">Low</option>
+            <option value="">Medium</option>
+            <option value="">High</option>
+          </select>
+
+          <button onclick="newElement()" class="button add">Add</button>
+          <button onclick="newElement()" class="button show/hide">
+            Show/Hide
+          </button>
+        </div>
+      </div>
+
+      <!-- LISTA TASK -->
+      <ul class="taskList">
+        <li>
+          Hit the gym
+          <button class="delete">Delete</button>
+          <button class="edit">Edit</button>
+        </li>
+        <li>
+          Meet George
+          <button class="delete">Delete</button>
+          <button class="edit">Edit</button>
+        </li>
+        <li>
+          Buy eggs
+          <button class="delete">Delete</button>
+          <button class="edit">Edit</button>
+        </li>
+        <li>
+          Read a book
+          <button class="delete">Delete</button>
+          <button class="edit">Edit</button>
+        </li>
+        <li>
+          Organize office
+          <button class="delete">Delete</button>
+          <button class="edit">Edit</button>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
